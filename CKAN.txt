@@ -37,3 +37,4 @@ sudo ln -s /usr/lib/ckan/default/src/ckan/ckan/config/solr/schema-2.0.xml
 cd /usr/local/Cellar/solr/4.10.2/example/solr/collection1/conf
 cp /usr/lib/ckan/default/src/ckan/ckan/config/solr/schema-2.0.xml ./
 mv schema-2.0.xml schema.xml
+vi /etc/ckan/default/development.ini //uncomment ckan.storage_path
